@@ -12,6 +12,7 @@
 #import "PagingViewController.h"
 #import "rotateAnamationVC.h"
 #import "CicleAnimateVC.h"
+#import "PayCarViewController.h"
 #define SCREEN_WIDTH    ([[UIScreen mainScreen] bounds].size.width)                  // 屏幕宽度
 #define SCREEN_HEIGHT   ([[UIScreen mainScreen] bounds].size.height)                 // 屏幕长度
 
@@ -33,8 +34,9 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 -(void)initData{
-    _dataSourceSection = @[@"CAReplicatorLayer"];
-    _dataSourceRow = @[@[@"波纹动画",@"球的波纹",@"翻页",@"旋转",@"球旋转动画Loading"]];
+    _dataSourceSection = @[@"CAReplicatorLayer",@"其他"];
+    _dataSourceRow = @[@[@"波纹动画",@"球的波纹",@"翻页",@"旋转",@"球旋转动画Loading"],
+                       @[@"购物车"]];
 }
 -(void)initUI{
     
@@ -90,6 +92,12 @@
         if (indexPath.row == 4) {
             CicleAnimateVC *vc = [[CicleAnimateVC alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
+        }
+    }
+    if (indexPath.section == 1) {
+        if (indexPath.row == 0) {
+            PayCarViewController *vc = [[PayCarViewController alloc]init];
+            [self.navigationController pushViewController:vc animated:true];
         }
     }
 }

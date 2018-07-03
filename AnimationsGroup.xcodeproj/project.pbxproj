@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BD22457120E8769F00186F20 /* CicleAnimateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BD22457020E8769F00186F20 /* CicleAnimateVC.m */; };
+		BD9190C920EB78CA0077CC37 /* PayCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9190C820EB78CA0077CC37 /* PayCarViewController.m */; };
+		BD9190CC20EB79FA0077CC37 /* PayCarAnimationTools.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9190CB20EB79FA0077CC37 /* PayCarAnimationTools.m */; };
 		BDA5157A20E5D54400749CC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA5157920E5D54400749CC4 /* AppDelegate.m */; };
 		BDA5157D20E5D54400749CC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA5157C20E5D54400749CC4 /* ViewController.m */; };
 		BDA5158020E5D54400749CC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA5157E20E5D54400749CC4 /* Main.storyboard */; };
@@ -42,6 +44,10 @@
 /* Begin PBXFileReference section */
 		BD22456F20E8769F00186F20 /* CicleAnimateVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CicleAnimateVC.h; sourceTree = "<group>"; };
 		BD22457020E8769F00186F20 /* CicleAnimateVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CicleAnimateVC.m; sourceTree = "<group>"; };
+		BD9190C720EB78CA0077CC37 /* PayCarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayCarViewController.h; sourceTree = "<group>"; };
+		BD9190C820EB78CA0077CC37 /* PayCarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayCarViewController.m; sourceTree = "<group>"; };
+		BD9190CA20EB79FA0077CC37 /* PayCarAnimationTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayCarAnimationTools.h; sourceTree = "<group>"; };
+		BD9190CB20EB79FA0077CC37 /* PayCarAnimationTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayCarAnimationTools.m; sourceTree = "<group>"; };
 		BDA5157520E5D54400749CC4 /* AnimationsGroup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationsGroup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA5157820E5D54400749CC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BDA5157920E5D54400749CC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -93,6 +99,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD9190C620EB78AB0077CC37 /* 购物车动画 */ = {
+			isa = PBXGroup;
+			children = (
+				BD9190C720EB78CA0077CC37 /* PayCarViewController.h */,
+				BD9190C820EB78CA0077CC37 /* PayCarViewController.m */,
+				BD9190CA20EB79FA0077CC37 /* PayCarAnimationTools.h */,
+				BD9190CB20EB79FA0077CC37 /* PayCarAnimationTools.m */,
+			);
+			path = "购物车动画";
+			sourceTree = "<group>";
+		};
 		BDA5156C20E5D54400749CC4 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +137,7 @@
 				BDA5157920E5D54400749CC4 /* AppDelegate.m */,
 				BDA5157B20E5D54400749CC4 /* ViewController.h */,
 				BDA5157C20E5D54400749CC4 /* ViewController.m */,
+				BD9190C620EB78AB0077CC37 /* 购物车动画 */,
 				BDA515AA20E5D78F00749CC4 /* CAReplicatorLayer */,
 				BDA5157E20E5D54400749CC4 /* Main.storyboard */,
 				BDA5158120E5D54500749CC4 /* Assets.xcassets */,
@@ -295,6 +313,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9190CC20EB79FA0077CC37 /* PayCarAnimationTools.m in Sources */,
+				BD9190C920EB78CA0077CC37 /* PayCarViewController.m in Sources */,
 				BDA515B320E605AB00749CC4 /* PagingViewController.m in Sources */,
 				BDA5157D20E5D54400749CC4 /* ViewController.m in Sources */,
 				BDA516E020E64A3600749CC4 /* rotateAnamationVC.m in Sources */,
